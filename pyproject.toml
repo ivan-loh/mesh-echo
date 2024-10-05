@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "meshtastic-pong"
+version = "0.1.0"
+description = ""
+authors = ["ivan <ivan@eriad.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+meshtastic = "^2.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
